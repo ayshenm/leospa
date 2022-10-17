@@ -330,6 +330,10 @@ footer{
   padding: 25px;
   font-family: "Rufina", serif;
   margin-top: 100px;
+}
+
+footer a{
+  text-decoration: none;
 
 }
 .if i{
