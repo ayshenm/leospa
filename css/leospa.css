@@ -136,10 +136,10 @@ header {
   text-decoration: none;
   display: block;
   padding: 15px;
-  margin-top: 20px;
   width: 150px;
   margin: 0 auto;
   border-radius: 50px;
+  margin-top: 20px;
 }
 .text2 a:hover{
   color: rgb(184, 184, 193);
