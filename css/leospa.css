@@ -326,6 +326,7 @@ span{
 footer{
   display: flex;
   justify-content: space-around;
+  align-items:center;
   background-color: pink;
   padding: 25px;
   font-family: "Rufina", serif;
