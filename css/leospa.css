@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(255, 255, 255, 0.787);
+}
+header {
+  position: relative;
+
+}
+
+.navigation {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.autor {
+  margin-top: 5px;
+}
+
+.navigation li {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 40px;
+}
+.navigation li a {
+  color: #555;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+.navigation li a:hover {
+  color: rgb(21, 192, 192);
+  font-weight: bolder;
+}
+
+.logo-title {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logo-box img {
+  width: 50px;
+}
+
+.img-left {
+  position: absolute;
+  top: -10px;
+  left: 1000px;
+}
+.img-right {
+  display: flex;
+}
+.first-blog {
+  padding: 75px;
+}
+.first-blog h1 {
+  font-family: "Rufina", serif;
+  margin: 15px 0;
+  font-size: 60px;
+}
+.first-blog h4 {
+  color: pink;
+  text-transform: uppercase;
+  font-family: "Rufina", serif;
+  font-size: small;
+}
+.first-blog p {
+  color: #555;
+  font-family: "Roboto", sans-serif;
+}
+.first-link {
+  text-decoration: none;
+  padding: 20px 40px;
+  background-color: rgb(75, 105, 238);
+  border-radius: 50px;
+  color: white;
+  display: block;
+  width: fit-content;
+  margin: 15px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.first-link:hover {
+  background-color: rgb(72, 10, 216);
+  color: rgb(255, 255, 255);
+}
+
+.first-link i {
+  padding-left: 7px;
+  font-size: 14px;
+}
+.flo1 {
+  position: absolute;
+  top: 695px;
+  left: 155px;
+}
+.flo2 {
+  position: absolute;
+  left: 1400px;
+  top: 990px;
+}
+.text1 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 45px;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.text1 img {
+  width: 60px;
+}
+.run {
+  margin: 114px;
+}
+
+.text2 h2 {
+  font-family: "Rufina", serif;
+  text-transform: initial;
+  margin: 14px;
+}
+.text2 p {
+  color: #555;
+  text-transform: lowercase;
+  font-size: 15px;
+}
+.text2 a {
+  background-color: rgb(255, 12, 190);
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  margin-top: 20px;
+  width: 150px;
+  margin-left: 600px;
+  border-radius: 50px;
+}
+.text2 a:hover{
+  color: rgb(184, 184, 193);
+}
+.image-run {
+  width: 100%;
+  height: 300px;
+  margin: 25px;
+}
+.img1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.img1 img {
+  width: 350px;
+  height: 250px;
+  border-radius: 25px;
+  transition: all 0.6s;
+  opacity: 0.8;
+}
+.img1 img:hover {
+  border: 5px solid rgba(225, 9, 233, 0.39);
+  cursor: pointer;
+}
+.text-low {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+}
+.text-up h3 {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Rufina", serif;
+  padding: 12px;
+}
+.text-up p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  padding: 35px 15px;
+  margin: 0 auto;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+.first-part {
+  width: 33.3%;
+  border: 1px solid rgba(153, 139, 139, 0.212);
+  padding: 15px;
+  margin: 0 25px;
+}
+.first-image img {
+  width: 100%;
+}
+.first-title {
+  font-family: "Rufina", serif;
+  text-align: center;
+  margin: 15px;
+  font-size: 25px;
+  color: rgb(18, 4, 82);
+}
+.first-inner {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 12px;
+}
+.first-link1 {
+  text-align: center;
+  margin: 25px;
+}
+.first-link1 a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(125, 29, 180);
+  padding: 12px 28px;
+  color: #fff;
+  border-radius: 25px;
+}
+.first-link1 a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.second-part {
+  width: 33.3%;
+  border: 1px solid rgba(153, 139, 139, 0.212);
+  padding: 15px;
+  margin: 0 25px;
+}
+.second1-part {
+  width: 33.3%;
+  border: 1px solid rgba(153, 139, 139, 0.212);
+  padding: 15px;
+  margin: 0 25px;
+}
+.blog{
+  width: 100%;
+  height: auto;
+  background-color:#fff9f8;
+ 
+}
+.all-blog {
+  text-align: center;
+  padding: 25px;
+  
+}
+.all-blog img{
+  margin: 15px;
+}
+.blog-title{
+  font-family: "Rufina", serif;
+  line-height: 2;
+}
+span{
+  font-family: "Rufina", serif;
+
+}
+.container1{
+  max-width: 100%;
+  padding: 35px 15px;
+  margin: 0 auto;
+  position: relative;
+}
+.part1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+ 
+}
+.part-item{
+  width:100%;
+  height: 350px;
+  border: 1px solid rgba(153, 139, 139, 0.212);
+  padding: 15px;
+  margin: 0 25px;
+  background-color: rgb(241, 225, 211);
+}
+.part-item img{
+  width: 100%;
+}
+.spin{
+  position: absolute;
+  top: 175px; 
+  background-color: rgb(255, 255, 255);
+}
+.spin h4{
+  font-family: "Rufina", serif;
+  padding: 10px;
+}
+.spin p{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 12px;
+
+}
+.spin1{
+  position: absolute;
+  top: 135px; 
+  background-color: rgb(255, 255, 255);
+  margin: 12px 0;
+}
+.spin1 h4{
+  font-family: "Rufina", serif;
+  padding: 0 8px;
+  margin: 9px;
+}
+.spin1 p{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.icon i{
+  color: rgb(13, 75, 90);
+  padding: 2px;
+  margin-right: 3px;  
+}
+.icon i:hover{
+  color: bisque;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+  padding: 25px;
+  font-family: "Rufina", serif;
+  margin-top: 100px;
+
+}
+.if i{
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+}
+.if i:hover{
+  color: rgb(238, 27, 175);
+}
+
+
+  
+
+
+
